@@ -33,10 +33,12 @@ header {
     display: flex;
     flex-direction: column;
     align-items:center;
-    justify-content: space-between;
+    justify-content: center;
     margin: 40px;
     height: 550px;
+    max-height: 550px;
     width: 650px;
+    max-width: 650px;
     border: solid;
     border-radius: 10px;
     background-color: #C70039;
@@ -49,7 +51,11 @@ header {
     color: #DCC08C;
 }
 
-.screen_layout{
+#screen_layout{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     margin: 15px;
     border-radius: 10px;
     height: 565px;
@@ -65,9 +71,34 @@ header {
     padding-bottom: 10px;
 }
 
+
+#left-button {
+
+}
+
+#right-button {
+
+}
+
 .button {
     height: 60px;
     width: 60px;
     border-radius: 360px;
-    border: none;
+    border-color: #3a3f4f ;
+}
+
+
+#screen_layout .square {
+    flex: 0 0 5.5%;
+    height: 25px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid;
+    /*border-color: rgb(239, 229, 229)*/;
+    border-color: white;
+    margin : 0.2px;
+}
+
+/*.square:hover {
+    background-color: #141E46;
 }
