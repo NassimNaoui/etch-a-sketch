@@ -55,12 +55,11 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+   align-items: center;
     margin: 15px;
-    border-radius: 10px;
     height: 565px;
     width: 565px;
-    background-color: rgb(239, 229, 229);
+    background-color: #efe5e5;
     
 }
 
@@ -89,14 +88,6 @@ header {
 
 
 #screen_layout .square {
-    flex: 0 0 5.5%;
-    height: 25px;
-    height: 25px;
-    border-radius: 5px;
-    border: 1px solid;
-    /*border-color: rgb(239, 229, 229)*/;
-    border-color: white;
-    margin : 0.2px;
 }
 
 /*.square:hover {
