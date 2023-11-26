@@ -36,11 +36,6 @@ function createGrid () {
 })
 }
 
-/*for (let i = 0; i < (16**2); i++) {
-    const div = document.createElement('div');
-    div.classList.add('square');
-    container.appendChild(div);
-};*/
 
 const square = document.querySelectorAll('.square');
 square.forEach(square => {
@@ -70,5 +65,3 @@ function clear (div) {
     this.style.backgroundColor = '#efe5e5';
 }
 
-
-/*#efe5e5*/
